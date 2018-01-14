@@ -1,92 +1,105 @@
-/*
-* @Author: Stark
-* @Date:   2017-11-16 16:47:28
-* @Last Modified by:   Stark
-* @Last Modified time: 2017-11-16 19:06:49
-*/
-body,p,ul,lu,h1,h2,h3{
-	margin: 0;
-	padding: 0;
-	list-style: none;
+body, p, ul, li, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-img{
-	display: block;
+
+input {
+    outline: none;
 }
-a{
-	text-decoration: none;
+
+img {
+    display: block;
 }
-.bg{
-	width: 7.5rem;
-	height: 13.34rem;
-	overflow: hidden;
+
+a {
+    text-decoration: none;
 }
-.bg .box{
-	width: 6.6rem;
-	height: 6.72rem;
-	margin: 1.3rem auto 0;
+
+.bg {
+    width: 7.5rem;
+    height: 13.34rem;
+    overflow: hidden;
 }
-.box .login{
-	width: 6.6rem;
-	height: 1.5rem;
-	text-align: center;
-	margin-bottom: 0.8rem;
+
+.bg .box {
+    width: 6.6rem;
+    height: 6.72rem;
+    margin: 1.3rem auto 0;
 }
-.box .login span{
-	font-size: 0.36rem;
-	color: #7F7F7F;
+
+.box .login {
+    width: 6.6rem;
+    height: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
 }
-.box .login span:last-child{
-	color: #32A5E7;
+
+.box .login span {
+    font-size: 0.36rem;
+    color: #7F7F7F;
 }
-.box .block1{
-	width :6.4rem;
-	height: 0.92rem;
-	padding: 0 0.05rem;
-	border: 0.01rem solid #C9C9C9;
-	border-radius: 0.02rem;
-	line-height: 0.92rem;
-	margin-bottom: 0.28rem;
+
+.box .login span:last-child {
+    color: #32A5E7;
 }
-.box .block1 div{
-	width: 1.2rem;
-	height: 0.92rem;
-	font-size: 0.27rem;
-	text-align: center;
-	color: #878787;
-	float: left;
+
+.box .block1 {
+    width: 6.4rem;
+    height: 0.92rem;
+    padding: 0 0.05rem;
+    border: 0.01rem solid #C9C9C9;
+    border-radius: 0.02rem;
+    line-height: 0.92rem;
+    margin-bottom: 0.28rem;
 }
-.block1 span{
-	font-size: 0.4rem;
-	float: left;
-	font-weight: 200;
-	color: #E8E8E8;
+
+.box .block1 div {
+    width: 1.2rem;
+    height: 0.92rem;
+    font-size: 0.27rem;
+    text-align: center;
+    color: #878787;
+    float: left;
 }
-.box .block1 input{
-	width: 5.1rem;
-	height: 0.85rem;
-	float: left;
-	border: 0;
+
+.block1 span {
+    font-size: 0.4rem;
+    float: left;
+    font-weight: 200;
+    color: #E8E8E8;
 }
-.box .block2 div{
-	width: 1.8rem;
+
+.box .block1 input {
+    width: 5.1rem;
+    height: 0.85rem;
+    float: left;
+    border: 0;
 }
-.box .block2 input{
-	width: 4.5rem;
-	height: 0.85rem;
-	float: left;
-	border: 0;
+
+.box .block2 div {
+    width: 1.8rem;
 }
-[name="denglu"]{
-	border: 0;
-	width :6.4rem;
-	height: 0.92rem;
-	background: #2B8CC5;
-	color: #fff;
+
+.box .block2 input {
+    width: 4.5rem;
+    height: 0.85rem;
+    float: left;
+    border: 0;
 }
-[name="zhuce"]{
-	border: 0;
-	width :6.4rem;
-	height: 0.92rem;
-	background: #fff;
-	color: #515151;
+
+[name="denglu"] {
+    border: 0;
+    width: 6.4rem;
+    height: 0.92rem;
+    background: #2B8CC5;
+    color: #fff;
+}
+
+[name="zhuce"] {
+    border: 0;
+    width: 6.4rem;
+    height: 0.92rem;
+    background: #fff;
+    color: #515151;
 }
